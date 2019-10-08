@@ -1,0 +1,41 @@
+body{
+    font-size: 16pt;
+    font-family: 'lora', serif;
+    padding-top: 112px;
+    padding-right: 139px;
+    padding-bottom: 139px;
+    padding-left: 112px;
+    color: #3E3E3E;
+
+}
+
+h1{
+    font-size: 42pt;
+    color: #D95D5A;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+h2{
+    font-size: 26pt;
+    color: #D95D5A;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+p{
+    font-size: 16pt;
+    font-family: 'lora', serif;
+}
+
+#text{
+    max-width: 536px;
+}
+
+
+#image{
+    float: right;
+    margin: 40px;
+}
+
+#links{
+    float: right;
+}
