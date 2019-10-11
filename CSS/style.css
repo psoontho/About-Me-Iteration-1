@@ -42,15 +42,21 @@ p{
 
 .card {
     float: right;
+    position: relative;
+    height: 338px;
 }
 
 .sm {
     display: inline-block;
     margin-left: 20px;
     margin-right: 20px;
-
 }
 
-#image {
-    margin-bottom: 40px;
+
+.smContainer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 11.88px;
+    margin-left: 11.87px;
 }
