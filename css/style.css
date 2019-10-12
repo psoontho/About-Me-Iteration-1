@@ -34,16 +34,17 @@ p{
 /*#image{
     float: right;
     margin: 40px;
-}*/
+}
 
 #links{
     float: right;
-}
+}*/
 
 .card {
-    float: right;
     height: 338px;
+    width: 260px;
     margin: 64px auto 0px;
+    border: 3px black solid;
 }
 
 .sm {
@@ -53,14 +54,9 @@ p{
 }
 
 
-/*.smContainer {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin-right: 11.88px;
-    margin-left: 11.87px;
-
-}*/
+.smContainer {
+    margin: 0 auto;
+}
 
 .left {
     float: left;
