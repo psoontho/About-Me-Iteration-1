@@ -1,10 +1,10 @@
 body{
     font-size: 16pt;
     font-family: 'lora', serif;
-    padding-top: 112px;
+    /*padding-top: 112px;
     padding-right: 139px;
     padding-bottom: 139px;
-    padding-left: 112px;
+    padding-left: 112px;*/
     color: #3E3E3E;
 
 }
@@ -63,6 +63,34 @@ p{
 
 .left {
     float: left;
-    width: 60%;
-    margin-left: 139px; 
+    width: 70%; 
+    height: 768px;
+}
+
+.right {
+    float: left;
+    width: 30%;
+    background-color: #D95D5A;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;  
+    height: 768px;
+}
+
+.content {
+    padding: 64px 72px;
+} 
+
+.aboutMe {
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.myName {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.heading {
+    margin-top: 0px;
+    margin-bottom: 16px;
 }
