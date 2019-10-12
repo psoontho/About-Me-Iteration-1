@@ -26,7 +26,7 @@ p{
     font-family: 'lora', serif;
 }
 
-#text{
+.text {
     max-width: 536px;
 }
 
@@ -59,4 +59,10 @@ p{
     right: 0;
     margin-right: 11.88px;
     margin-left: 11.87px;
+}
+
+.left {
+    float: left;
+    width: 60%;
+    margin-left: 139px; 
 }
