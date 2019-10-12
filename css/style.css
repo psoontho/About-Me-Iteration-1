@@ -27,7 +27,7 @@ p{
 }
 
 .text {
-    max-width: 536px;
+    max-width: 750px;
 }
 
 
@@ -42,8 +42,8 @@ p{
 
 .card {
     float: right;
-    position: relative;
     height: 338px;
+    margin: 64px auto 0px;
 }
 
 .sm {
@@ -53,13 +53,14 @@ p{
 }
 
 
-.smContainer {
+/*.smContainer {
     position: absolute;
     bottom: 0;
     right: 0;
     margin-right: 11.88px;
     margin-left: 11.87px;
-}
+
+}*/
 
 .left {
     float: left;
