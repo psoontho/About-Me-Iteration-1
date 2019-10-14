@@ -1,10 +1,10 @@
 body{
     font-size: 16pt;
     font-family: 'lora', serif;
-    padding-top: 112px;
+    /*padding-top: 112px;
     padding-right: 139px;
     padding-bottom: 139px;
-    padding-left: 112px;
+    padding-left: 112px;*/
     color: #3E3E3E;
 
 }
@@ -26,37 +26,72 @@ p{
     font-family: 'lora', serif;
 }
 
-#text{
-    max-width: 536px;
+.text {
+    max-width: 750px;
 }
 
 
 /*#image{
     float: right;
     margin: 40px;
-}*/
+}
 
 #links{
     float: right;
-}
+}*/
 
 .card {
-    float: right;
-    position: relative;
     height: 338px;
+    width: 260px;
+    margin: 64px auto 0px;
 }
 
-.sm {
+/*.sm {
     display: inline-block;
     margin-left: 20px;
     margin-right: 20px;
-}
+}*/
 
 
 .smContainer {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin-right: 11.88px;
-    margin-left: 11.87px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left {
+    float: left;
+    width: 70%; 
+    height: 768px;
+}
+
+.right {
+    float: left;
+    width: 30%;
+    background-color: #D95D5A;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;  
+    height: 768px;
+}
+
+.content {
+    padding: 64px 72px;
+} 
+
+.aboutMe {
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.myName {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.heading {
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.myPic {
+    margin-bottom: 24px;
 }
